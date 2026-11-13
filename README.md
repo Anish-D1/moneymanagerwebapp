@@ -1,48 +1,43 @@
 # Money Manager Pro – Frontend
 
-A full-stack personal finance management application built with **React and JavaScript**. Money Manager Pro helps users manage their income and expenses through a clean dashboard with secure authentication and backend integration.
+A full-stack personal finance management application built using **React and JavaScript**. Money Manager Pro helps users manage their income and expenses through a dashboard with secure authentication and backend integration.
 
 ## 🌐 Live Demo
 
-[Money Manager Pro](https://money-manager-frontend-one-wine.vercel.app/)
+**[Open Money Manager Pro](https://money-manager-frontend-one-wine.vercel.app/)**
 
-## 📸 Screenshots
+## 📸 Application Screenshots
 
-### Dashboard
-<!-- Add dashboard screenshot here -->
-![Dashboard](screenshots/dashboard.png)
+### 1. Landing Page
 
-### Login Page
-<!-- Add login screenshot here -->
-![Login Page](screenshots/login.png)
+![Landing Page](screenshots/Landing.png)
 
-### Registration Page
-<!-- Add registration screenshot here -->
-![Registration Page](screenshots/registration.png)
+### 2. Registration Page
 
-### Income Management
-<!-- Add income screenshot here -->
-![Income Management](screenshots/income.png)
+![Registration Page](screenshots/Registration.png)
 
-### Expense Management
-<!-- Add expense screenshot here -->
-![Expense Management](screenshots/expense.png)
+### 3. Dashboard
 
-### User Profile
-<!-- Add profile screenshot here -->
-![User Profile](screenshots/profile.png)
+![Dashboard](screenshots/Dashboard.png)
+
+### 4. Income Management
+
+![Income Management](screenshots/Income%20Management.png)
+
+### 5. Expense Management
+
+![Expense Management](screenshots/Expense%20Management.png)
 
 ## ✨ Features
 
-- User registration and login
-- JWT-based authentication
-- Email-based account activation
-- Personal finance dashboard
-- Income management
-- Expense management
-- Profile image upload
-- Secure communication with backend REST APIs
-- Responsive user interface
+- **User Authentication:** User registration and login with JWT authentication.
+- **Email Verification:** Account activation through email verification.
+- **Dashboard:** View and manage personal financial information.
+- **Income Management:** Add and manage income records.
+- **Expense Management:** Track and manage expenses.
+- **Profile Management:** Upload and manage profile images.
+- **REST API Integration:** Communicate with the Spring Boot backend using Axios.
+- **Responsive Interface:** User-friendly application interface.
 
 ## 🛠️ Tech Stack
 
@@ -58,19 +53,27 @@ A full-stack personal finance management application built with **React and Java
 
 ## 🔗 Backend Integration
 
-The frontend communicates with a Spring Boot REST API using Axios.
+The frontend communicates with a Java Spring Boot REST API.
 
-**Backend URL:**
+**Backend Repository:**
+
+[Money Manager Pro – Backend](https://github.com/Anish-D1/moneymanager)
+
+**Backend Deployment:**
 
 https://money-manager-backend-riu9.onrender.com
 
 **API Base URL:**
 
-`https://money-manager-backend-riu9.onrender.com/api/v1.0`
+```text
+https://money-manager-backend-riu9.onrender.com/api/v1.0
+```
 
 ## ⚙️ Getting Started
 
 ### Prerequisites
+
+Make sure you have the following installed:
 
 - Node.js
 - npm
@@ -96,13 +99,13 @@ npm install
 
 ### 4. Configure environment variables
 
-Create a `.env` file in the project root:
+Create a `.env` file in the project root directory.
 
 ```env
 VITE_API_URL=https://money-manager-backend-riu9.onrender.com
 ```
 
-For local backend development, use your local backend URL instead.
+For local backend development, replace the URL with your local Spring Boot backend address.
 
 ### 5. Start the development server
 
@@ -110,19 +113,61 @@ For local backend development, use your local backend URL instead.
 npm run dev
 ```
 
-Open the local URL displayed in your terminal.
+Open the local URL displayed in your terminal to access the application.
+
+### 6. Build for production
+
+```bash
+npm run build
+```
 
 ## 🚀 Deployment
 
 The frontend is deployed using **Vercel**.
 
-- Source code hosted on GitHub
-- Production build handled by Vite
-- Backend API URL configured through environment variables
+- Source code is maintained on GitHub.
+- Vite handles the production build.
+- Environment variables configure the backend API URL.
+- Vercel hosts the deployed application.
 
 ## 🔐 Authentication
 
-The application uses JWT-based authentication to communicate with protected backend endpoints. Users must authenticate before accessing their personal financial information.
+The application integrates with the backend's authentication system.
+
+- JWT-based authentication.
+- Account activation through email verification.
+- Authenticated communication with protected API endpoints.
+- Access to personal financial information after login.
+
+## 📂 Project Structure
+
+```text
+moneymanagerwebapp/
+│
+├── public/
+│
+├── screenshots/
+│   ├── Dashboard.png
+│   ├── Expense Management.png
+│   ├── Income Management.png
+│   ├── Landing.png
+│   └── Registration.png
+│
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   └── ...
+│
+├── .env
+├── .gitignore
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+*Note: The source folder structure above is illustrative; actual folders may differ.*
 
 ## 👨‍💻 Developer
 
@@ -133,4 +178,4 @@ The application uses JWT-based authentication to communicate with protected back
 
 ---
 
-⭐ Built as a hands-on full-stack development project to strengthen my React and Java backend development skills.
+⭐ Built as a hands-on full-stack development project to strengthen my React, API integration, and application development skills.
