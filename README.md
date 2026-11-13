@@ -10,23 +10,23 @@ A full-stack personal finance management application built using **React and Jav
 
 ### 1. Landing Page
 
-![Landing Page](screenshotsapp/Landing.png)
+![Landing Page](Landing.png)
 
 ### 2. Registration Page
 
-![Registration Page](ScreenshotsApp/Registration.png)
+![Registration Page](Registration.png)
 
 ### 3. Dashboard
 
-![Dashboard](ScreenshotsApp/Dashboard.png)
+![Dashboard](Dashboard.png)
 
 ### 4. Income Management
 
-![Income Management](ScreenshotsApp/Income%20Management.png)
+![Income Management](Income%20Management.png)
 
 ### 5. Expense Management
 
-![Expense Management](ScreenshotsApp/Expense%20Management.png)
+![Expense Management](Expense%20Management.png)
 
 ## ✨ Features
 
