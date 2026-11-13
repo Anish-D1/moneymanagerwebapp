@@ -10,7 +10,7 @@ A full-stack personal finance management application built using **React and Jav
 
 ### 1. Landing Page
 
-![Landing Page](ScreenshotsApp/Landing.png)
+![Landing Page](screenshotsapp/Landing.png)
 
 ### 2. Registration Page
 
